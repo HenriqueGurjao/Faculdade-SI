@@ -1,13 +1,13 @@
-package POO;
+/*package POO;
 
 import java.util.Scanner;
 
 public class Aula1 {
-/*exer 1 
+exer 1 
  * construir um programa em Java que leia
 um número inteiro e calcule e escreva o seu dobro.
 
-*/
+
 
 
    public static void main(String[] args) {
@@ -23,7 +23,7 @@ um número inteiro e calcule e escreva o seu dobro.
 
         leia.close();
     }
-    
+  */  
 /*exer 2
  * construir um programa em Java que leia
 2 números inteiros e calcule, armazene e imprima a
@@ -152,6 +152,7 @@ public static void main(String[] args) {
 
     Scanner leia = new Scanner(System.in);
     
+    static void mai
 
     System.out.println("Digite o tanto quilômetros: ");
     float num1 = leia.nextFloat();
@@ -304,6 +305,7 @@ public static void main(String[] args) {
     System.out.println("Quantidade de pontos ganhos: " + pontosGanhos);
     System.out.println("Quantidade de pontos perdidos: " + pontosPerdidos);
  }
-*/
+
   
 }
+*/
