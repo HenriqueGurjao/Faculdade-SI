@@ -1,4 +1,4 @@
-package controle;
+/*package controle;
 
 import java.util.Scanner;
 /*Faça um programa que leia 
@@ -7,7 +7,7 @@ import java.util.Scanner;
     o preço unitário, 
     forma de pagamento (1 - Dinheiro, 2 - Cheque, 3 - Cartão débito, 4 - Cartão crédito) 
 de um produto. Pagamentos em dinheiro recebem um desconto de 10%, em cartão 5% e em cheque 2%. O programa deve
-informar o valor do desconto e o valor final a pagar. */
+informar o valor do desconto e o valor final a pagar. 
 
 import dominio.ProdutoDominio;
 
@@ -44,3 +44,4 @@ public class ProdutoControle {
 
 
 }
+*/

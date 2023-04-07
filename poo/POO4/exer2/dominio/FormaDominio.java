@@ -12,6 +12,22 @@ public class FormaDominio {
         this.ladoZ = ladoZ;
     }
 
+    public float VarificarForma(){
+        if(this.getLadoX() < this.getLadoY() + this.getLadoZ() || this.getLadoY() < this.getLadoX() + this.getLadoZ() || this.getLadoZ() < this.getLadoY() + this.getLadoX()){
+            System.out.println("Sim ele tem um formato de triangulo");
+            if(this.getLadoX() == this.getLadoY() && this.getLadoX() == this.ladoZ){
+                System.out.println("Triangulo Equilatero");
+            } else if (this.getLadoX() == this.getLadoY() && this.getLadoX() != this.getLadoZ() || this.getLadoZ() == this.getLadoX() && this.getLadoX() != this.getLadoY() || this.getLadoZ() == this.getLadoY() && this.getLadoY() != this.getLadoX()) {
+                System.out.println("Triangulo Isosceles");
+            } else if( this.getLadoX() != this.getLadoY() && this.getLadoX() != this.getLadoZ() && this.getLadoY() != this.getLadoZ()){
+                System.out.println("Triangulo escaleno");
+            }
+        } else {
+            System.out.println("Isso não é um triangulo");
+
+        }
+        return 0;
+    }
     
     public float getLadoX() {
         return ladoX;
@@ -32,5 +48,6 @@ public class FormaDominio {
         this.ladoZ = ladoZ;
     }
 
+    
     
 }
