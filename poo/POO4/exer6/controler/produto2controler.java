@@ -5,7 +5,7 @@ import exer6.dominio.produto2Dominio;
 
 import java.lang.Math;
 
-public class produto2controler {
+public class produto2controler  {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         
