@@ -1,7 +1,5 @@
 package dominio;
 
-
-
 public class produto {
 
    private int codigo;
